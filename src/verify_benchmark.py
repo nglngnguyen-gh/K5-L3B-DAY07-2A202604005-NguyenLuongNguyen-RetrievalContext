@@ -131,7 +131,9 @@ def main() -> int:
         if n > 1:
             errors.append(f"duplicate question text: {t[:60]}")
 
-    files = {name: hashlib.sha256((BENCH / name).read_bytes()).hexdigest() for name in ("questions.json", "abstain.json")}
+    # Hash LF-normalized bytes so the value is the same after a Windows checkout (core.autocrlf).
+    files = {name: hashlib.sha256((BENCH / name).read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+             for name in ("questions.json", "abstain.json")}
     out = {
         "verified_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "sha256": files,
