@@ -1,0 +1,17 @@
+{
+  "name": "hybrid-B-k5",
+  "model": "gemini-2.5-flash",
+  "method": "hybrid",
+  "index": "B",
+  "top_k": 5,
+  "use_filter": true,
+  "max_searches": 4,
+  "max_turns": 10,
+  "context_budget_chars": 6000,
+  "neighbors_tool": false,
+  "temperature": 0.0,
+  "thinking_budget": 0,
+  "price_in_per_m": 0.3,
+  "price_out_per_m": 2.5,
+  "notes": "Improvement 1: hybrid-B-k3 with top_k 5 (only change)."
+}

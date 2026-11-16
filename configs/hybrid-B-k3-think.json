@@ -1,0 +1,17 @@
+{
+  "name": "hybrid-B-k3-think",
+  "model": "gemini-2.5-flash",
+  "method": "hybrid",
+  "index": "B",
+  "top_k": 3,
+  "use_filter": true,
+  "max_searches": 4,
+  "max_turns": 10,
+  "context_budget_chars": 6000,
+  "neighbors_tool": false,
+  "temperature": 0.0,
+  "thinking_budget": 1024,
+  "price_in_per_m": 0.3,
+  "price_out_per_m": 2.5,
+  "notes": "Improvement 2: hybrid-B-k3 with thinking_budget 1024 (only change)."
+}
