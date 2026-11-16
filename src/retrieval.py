@@ -119,10 +119,12 @@ class GeminiQueryEmbedder:
                     model=self.model_name, contents=[text],
                     config=types.EmbedContentConfig(task_type=self.task_type, output_dimensionality=self.dimensions))
                 break
-            except errors.APIError as exc:
-                retriable = getattr(exc, "code", None) in (429, 500, 503)
+            except Exception as exc:
+                import httpx
+                retriable = (isinstance(exc, errors.APIError) and getattr(exc, "code", None) in (429, 500, 503, 504)) \
+                    or isinstance(exc, (httpx.TransportError, ConnectionError, TimeoutError))
                 if not retriable or attempt == self.max_retries - 1:
-                    raise RetrievalError(f"Gemini query embedding failed: {exc}") from exc
+                    raise RetrievalError(f"Gemini query embedding failed: {type(exc).__name__}: {exc}") from exc
                 time.sleep(min(30, 2 ** attempt * 2))
         self.api_calls += 1
         self.chars_embedded += len(text)
