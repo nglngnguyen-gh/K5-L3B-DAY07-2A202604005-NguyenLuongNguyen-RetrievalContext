@@ -1,0 +1,186 @@
+[
+ {
+  "query_id": "t01",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p027:b005"
+  ],
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Values correct. Table 1 (p17) retrieved at rank 1 and in context -> context 2; the answer cites p27 Table 5 total, which states the same figures (accepted alternative).",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t02",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p028:b002"
+  ],
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Correct and complete; context holds the full gold evidence with page/source (context 2); every citation read and supports its claim.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t03",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p028:b005"
+  ],
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 1,
+  "context_grade": 2,
+  "reason": "Amounts correct ($2.3B; $1.1B General Reserve, $750M IDA, $500M Surplus; extra Surplus transfers also correct) but presents all three as final allocations, dropping the condition that only the $1.1B was approved and the IDA/Surplus amounts were recommended to the Board of Governors -> partial (same rule as dev d01). Used 4 searches (repeated near-identical queries) before answering.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t04",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p037:b007"
+  ],
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Correct and complete; context holds the full gold evidence with page/source (context 2); every citation read and supports its claim.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t05",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p041:b008",
+   "wbg-ar-2026:p041:b009"
+  ],
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Correct and complete; context holds the full gold evidence with page/source (context 2); every citation read and supports its claim.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t06",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p022:b010"
+  ],
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Correct and complete; context holds the full gold evidence with page/source (context 2); every citation read and supports its claim.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t07",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p044:b003"
+  ],
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Correct and complete; context holds the full gold evidence with page/source (context 2); every citation read and supports its claim.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t08",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p028:b002",
+   "wbg-ar-2026:p025:b006"
+  ],
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Correct and complete; context holds the full gold evidence with page/source (context 2); every citation read and supports its claim.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "t09",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p016:b000",
+   "wbg-ar-2026:p021:b004"
+  ],
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "context_grade": 2,
+  "reason": "Correct and complete; context holds the full gold evidence with page/source (context 2); every citation read and supports its claim.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "u-t01",
+  "status": "abstain",
+  "citations": [],
+  "citation_support": [],
+  "abstention_correct": true,
+  "abstention_content_ok": true,
+  "reason": "Abstained. Side remark mentions MIGA gross issuance FY22-26 (true); no claim about FY2020 premium income.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "u-t02",
+  "status": "abstain",
+  "citations": [
+   "wbg-ar-2026:p022:b010"
+  ],
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": true,
+  "abstention_content_ok": true,
+  "reason": "Abstained (abstain=true). Cites Group-wide 20,706 staff (p22 supports) and states MIGA-only headcount is not given.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ },
+ {
+  "query_id": "u-t03",
+  "status": "answered",
+  "citations": [
+   "wbg-ar-2026:p028:b004",
+   "wbg-ar-2026:p019:b004"
+  ],
+  "citation_support": [
+   true,
+   true
+  ],
+  "abstention_correct": false,
+  "abstention_content_ok": true,
+  "reason": "Content correctly says the report does not give IBRD's interest rate/spread and cites only supported facts, but final_answer used abstain=false -> status answered -> NOT abstained (same failure mode as dev u-d02). Citations p28:b004 and p19:b004 support the bond/funding statements.",
+  "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
+  "reviewed_by": null
+ }
+]
