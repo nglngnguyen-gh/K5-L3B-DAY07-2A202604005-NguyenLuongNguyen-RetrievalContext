@@ -1,0 +1,1456 @@
+{
+ "verified_at": "2026-11-16T03:02:08+00:00",
+ "sha256": {
+  "questions.json": "17af90217de81658fa59bfbb6352a39eb5855875f82fbd36f98d3cffe0750a3b",
+  "abstain.json": "59ddf1d5fa2f805027083ccded25a8f03f33b8417eca846730dadd2d3faf3e8a"
+ },
+ "counts": {
+  "answerable": {
+   "dev": 21,
+   "test": 9
+  },
+  "abstain": {
+   "dev": 3,
+   "test": 3
+  },
+  "types": {
+   "dev": {
+    "direct": 8,
+    "conditional": 3,
+    "paraphrase": 5,
+    "metadata_filter": 4,
+    "multi_hop": 1
+   },
+   "test": {
+    "table": 2,
+    "metadata_filter": 1,
+    "conditional": 2,
+    "direct": 1,
+    "paraphrase": 1,
+    "multi_hop": 2
+   }
+  }
+ },
+ "dev_test_gold_page_overlap": [
+  27,
+  29
+ ],
+ "errors": [],
+ "warnings": [
+  "t03 (group 0, p28): evidence split across chunks in index A"
+ ],
+ "questions": [
+  {
+   "id": "d01",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 6,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p006:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p006:b002"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d02",
+   "split": "dev",
+   "type": "conditional",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 6,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p006:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p006:b001"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d03",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 7,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p007:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p007:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d04",
+   "split": "dev",
+   "type": "paraphrase",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 7,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p007:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p007:b001"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 0,
+     "page": 5,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p005:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p005:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d05",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 10,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p010:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p010:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d06",
+   "split": "dev",
+   "type": "paraphrase",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 11,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p011:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p011:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d07",
+   "split": "dev",
+   "type": "conditional",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 12,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p012:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p012:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d08",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 13,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p013:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p013:b003"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d09",
+   "split": "dev",
+   "type": "paraphrase",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 14,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p014:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p014:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d10",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 19,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p019:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p019:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d11",
+   "split": "dev",
+   "type": "metadata_filter",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 31,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p031:f000",
+      "wbg-ar-2026:p031:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p031:b001"
+     ],
+     "filter_value_on_page": true
+    }
+   ]
+  },
+  {
+   "id": "d12",
+   "split": "dev",
+   "type": "metadata_filter",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 32,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p032:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p032:b002"
+     ],
+     "filter_value_on_page": true
+    }
+   ]
+  },
+  {
+   "id": "d13",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 36,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p036:f004"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p036:b005"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d14",
+   "split": "dev",
+   "type": "metadata_filter",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 38,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p038:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p038:b001"
+     ],
+     "filter_value_on_page": true
+    },
+    {
+     "group": 0,
+     "page": 39,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p039:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p039:b000"
+     ],
+     "filter_value_on_page": true
+    }
+   ]
+  },
+  {
+   "id": "d15",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 42,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p042:f003"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p042:b004"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d16",
+   "split": "dev",
+   "type": "paraphrase",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 9,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p009:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p009:b000"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d17",
+   "split": "dev",
+   "type": "conditional",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 27,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [
+      29,
+      30
+     ],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p027:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p027:b002",
+      "wbg-ar-2026:p027:b003"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 0,
+     "page": 29,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [
+      27,
+      30
+     ],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p029:f006"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p029:b007"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 0,
+     "page": 30,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [
+      27,
+      29
+     ],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p030:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p030:b002"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d18",
+   "split": "dev",
+   "type": "metadata_filter",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 43,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p043:f007"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p043:b010"
+     ],
+     "filter_value_on_page": true
+    }
+   ]
+  },
+  {
+   "id": "d19",
+   "split": "dev",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 39,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p039:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p039:b002"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d20",
+   "split": "dev",
+   "type": "paraphrase",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 24,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p024:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p024:b003"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "d21",
+   "split": "dev",
+   "type": "multi_hop",
+   "n_groups": 2,
+   "checks": [
+    {
+     "group": 0,
+     "page": 4,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p004:f009",
+      "wbg-ar-2026:p004:f010"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p004:b012"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 0,
+     "page": 5,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p005:f005"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p005:b006"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 0,
+     "page": 18,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p018:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p018:b001"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 1,
+     "page": 32,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p032:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p032:b002"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 1,
+     "page": 33,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p033:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p033:b003"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t01",
+   "split": "test",
+   "type": "table",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 17,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p017:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p017:b002"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 0,
+     "page": 27,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p027:f001",
+      "wbg-ar-2026:p027:f004"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p027:b001",
+      "wbg-ar-2026:p027:b005"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t02",
+   "split": "test",
+   "type": "table",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 28,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p028:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p028:b002"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t03",
+   "split": "test",
+   "type": "metadata_filter",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 28,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p028:b005"
+     ],
+     "filter_value_on_page": true
+    },
+    {
+     "group": 0,
+     "page": 29,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p029:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p029:b001"
+     ],
+     "filter_value_on_page": true
+    }
+   ]
+  },
+  {
+   "id": "t04",
+   "split": "test",
+   "type": "conditional",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 37,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p037:f006"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p037:b007"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t05",
+   "split": "test",
+   "type": "conditional",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 41,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p041:f006"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p041:b008"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t06",
+   "split": "test",
+   "type": "direct",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 22,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p022:f007"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p022:b010"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t07",
+   "split": "test",
+   "type": "paraphrase",
+   "n_groups": 1,
+   "checks": [
+    {
+     "group": 0,
+     "page": 44,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p044:f002"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p044:b003"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t08",
+   "split": "test",
+   "type": "multi_hop",
+   "n_groups": 2,
+   "checks": [
+    {
+     "group": 0,
+     "page": 28,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p028:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p028:b002"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 1,
+     "page": 25,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p025:f005"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p025:b006"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 1,
+     "page": 37,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p037:f001"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p037:b001"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  },
+  {
+   "id": "t09",
+   "split": "test",
+   "type": "multi_hop",
+   "n_groups": 2,
+   "checks": [
+    {
+     "group": 0,
+     "page": 16,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p016:f000"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p016:b000"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 0,
+     "page": 22,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p022:f004"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p022:b005"
+     ],
+     "filter_value_on_page": null
+    },
+    {
+     "group": 1,
+     "page": 21,
+     "evidence_on_page": true,
+     "page_counted": true,
+     "evidence_also_on_pages": [],
+     "chunks_containing_A": [
+      "wbg-ar-2026:p021:f003"
+     ],
+     "chunks_containing_B": [
+      "wbg-ar-2026:p021:b004"
+     ],
+     "filter_value_on_page": null
+    }
+   ]
+  }
+ ],
+ "abstain": [
+  {
+   "id": "u-d01",
+   "split": "dev",
+   "keyword_matches": {
+    "CAO": {
+     "pages": [
+      23
+     ],
+     "snippets": [
+      {
+       "page": 23,
+       "snippet": " Established in 1999, the Office of the Compliance Advisor Ombudsman (CAO) is the independent accountability mechanism for projects supported b"
+      },
+      {
+       "page": 23,
+       "snippet": "l impacts of these projects can raise their problem-solving approach. CAO’s Compliance function carries out reviews of IFC/MIGA’s compliance wi"
+      },
+      {
+       "page": 23,
+       "snippet": "ds remedial actions where appropriate. Through its Advisory function, CAO provides advice to improve IFC/MIGA’s systemic performance on environ"
+      },
+      {
+       "page": 23,
+       "snippet": "rformance on environmental and social sustainability. In fiscal 2026, CAO handled 63 cases related to projects in 30 countries. CAO received 19"
+      },
+      {
+       "page": 23,
+       "snippet": "iscal 2026, CAO handled 63 cases related to projects in 30 countries. CAO received 19 new eligible complaints related to projects in six sector"
+      },
+      {
+       "page": 23,
+       "snippet": "s; infrastructure; and non-banking and alternative finance. Of these, CAO initiated assessments of 18 cases and referred one to IFC at the requ"
+      },
+      {
+       "page": 23,
+       "snippet": "omplainants for an attempt at early resolution by IFC and its client. CAO closed 11 cases. For more information, visit https://www.cao-ombudsma"
+      },
+      {
+       "page": 23,
+       "snippet": " client. CAO closed 11 cases. For more information, visit https://www.cao-ombudsman.org/. For more information, visit accountability.worldbank."
+      }
+     ]
+    },
+    "Compliance Advisor Ombudsman": {
+     "pages": [
+      23
+     ],
+     "snippets": [
+      {
+       "page": 23,
+       "snippet": ", IFC, and MIGA approved the integration of the Inspection Panel, the Compliance Advisor Ombudsman, and the Dispute Resolution Service into a single Independent Account"
+      },
+      {
+       "page": 23,
+       "snippet": " WORLD BANK GROUP INDEPENDENT ACCOUNTABILITY MECHANISMS OFFICE OF THE COMPLIANCE ADVISOR OMBUDSMAN Established in 1999, the Office of the Compliance Advisor Ombudsman ("
+      },
+      {
+       "page": 23,
+       "snippet": "E COMPLIANCE ADVISOR OMBUDSMAN Established in 1999, the Office of the Compliance Advisor Ombudsman (CAO) is the independent accountability mechanism for projects suppor"
+      }
+     ]
+    },
+    "budget": {
+     "pages": [
+      22,
+      24,
+      40
+     ],
+     "snippets": [
+      {
+       "page": 22,
+       "snippet": "ed all World Bank Group back- and middle-offices functions, including Budget, Communications and External Relations, Human Resources, and Informat"
+      },
+      {
+       "page": 22,
+       "snippet": "nd deeper interoperability with country financial management systems. BUDGET MANAGEMENT In fiscal 2026, the World Bank Group evolved its budget pr"
+      },
+      {
+       "page": 22,
+       "snippet": "s. BUDGET MANAGEMENT In fiscal 2026, the World Bank Group evolved its budget processes to enhance transparency and efficiency. These reforms estab"
+      },
+      {
+       "page": 22,
+       "snippet": "nsparency and efficiency. These reforms established a more integrated budget framework across IFC, MIGA, and the World Bank, linking business plan"
+      },
+      {
+       "page": 22,
+       "snippet": "nd the World Bank, linking business planning, workforce planning, and budget decisions more directly to institutional priorities and development o"
+      },
+      {
+       "page": 24,
+       "snippet": "portfolio. Finally, GIA contributed to internal change management and budget processes."
+      },
+      {
+       "page": 40,
+       "snippet": "enefit Plan expenses. b. Effective fiscal 2023, the ratio is based on Budget basis Administrative Expenses, as opposed to Accounting basis Adminis"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "u-d02",
+   "split": "dev",
+   "keyword_matches": {
+    "green bond": {
+     "pages": [],
+     "snippets": []
+    },
+    "green-bond": {
+     "pages": [],
+     "snippets": []
+    },
+    "green and social bonds": {
+     "pages": [
+      19
+     ],
+     "snippets": [
+      {
+       "page": 19,
+       "snippet": "ted securities” by the U.S. Securities and Exchange Commission. IFC’s green and social bonds are an integral part of its borrowing strategy with $2 billion and $4"
+      }
+     ]
+    },
+    "IBRD raised": {
+     "pages": [
+      28
+     ],
+     "snippets": [
+      {
+       "page": 28,
+       "snippet": "nt portfolio to provide liquidity for its operations. In fiscal 2026, IBRD raised nearly $50 billion by issuing medium- and long-term bonds in a variet"
+      }
+     ]
+    },
+    "bonds": {
+     "pages": [
+      19,
+      20,
+      28,
+      31
+     ],
+     "snippets": [
+      {
+       "page": 19,
+       "snippet": "g agencies, raised nearly $50 billion through Sustainable Development Bonds issued in a variety of structures and maturities. Please see the IBRD"
+      },
+      {
+       "page": 19,
+       "snippet": "pport IBRD-financed projects. IDA also issues Sustainable Development Bonds to scale up its development impact, and in fiscal 2026, issued approx"
+      },
+      {
+       "page": 19,
+       "snippet": "pment impact, and in fiscal 2026, issued approximately $14 billion in bonds. Read IDA’s Impact Report to learn more. In March 2026, following act"
+      },
+      {
+       "page": 19,
+       "snippet": "y the U.S. Securities and Exchange Commission. IFC’s green and social bonds are an integral part of its borrowing strategy with $2 billion and $4"
+      },
+      {
+       "page": 19,
+       "snippet": "f billions for global impact. IBRD has continued to structure outcome bonds that mobilize private capital for specific development projects. For "
+      },
+      {
+       "page": 19,
+       "snippet": "land and to create an estimated 11,000 local jobs. SCALING UP OUTCOME BONDS: CLEAN COOKING AND SPEKBOOM RESTORATION THE STEP-UP LOAN Designed to "
+      },
+      {
+       "page": 20,
+       "snippet": "ation. By using innovative instruments, such as sustainability-linked bonds, we link financial innovation directly to economy-wide employment out"
+      },
+      {
+       "page": 20,
+       "snippet": "nance sustainable projects, and market updates on labeled sustainable bonds for public sector issuers. Sustainable bond programs established with"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "u-d03",
+   "split": "dev",
+   "keyword_matches": {
+    "2020": {
+     "pages": [
+      43
+     ],
+     "snippets": [
+      {
+       "page": 43,
+       "snippet": "2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      }
+     ]
+    },
+    "FY20": {
+     "pages": [
+      43
+     ],
+     "snippets": [
+      {
+       "page": 43,
+       "snippet": "istered by the Secretariat 258 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY20"
+      },
+      {
+       "page": 43,
+       "snippet": " the Secretariat 258 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY20"
+      },
+      {
+       "page": 43,
+       "snippet": "tariat 258 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY20"
+      },
+      {
+       "page": 43,
+       "snippet": " 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": "03 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": " 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": "47 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": "FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      }
+     ]
+    },
+    "fiscal 2020": {
+     "pages": [],
+     "snippets": []
+    },
+    "Investment Commitments": {
+     "pages": [
+      32,
+      33
+     ],
+     "snippets": [
+      {
+       "page": 32,
+       "snippet": "ng economies. In fiscal 2026, IFC achieved a record $105.6 billion in investment commitments, including over $73.6 billion in private capital mobilized. Those inv"
+      },
+      {
+       "page": 33,
+       "snippet": "IONS OF DOLLARS, FOR THE YEARS ENDED JUNE 30 FY26 FY25 FY24 FY23 FY22 Investment Commitmentsa 105,560 73,358 65,701 58,707 46,144 IFC Own Account 31,977 28,284 31"
+      },
+      {
+       "page": 33,
+       "snippet": "260.2 250.6 Share of program in IDA countriesf 46% 47% 50% 54% 51% a. Investment Commitments include Own Account Commitments (LTF + STF) and Mobilization (LTF Pri"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "u-t01",
+   "split": "test",
+   "keyword_matches": {
+    "premium income": {
+     "pages": [
+      40
+     ],
+     "snippets": [
+      {
+       "page": 40,
+       "snippet": "LTS BY FISCAL YEAR MILLIONS OF DOLLARS FY26 FY25 FY24 FY23 FY22 Gross premium income 316.8 310.3 272.3 245.0 229.4 Net premium income 150.1 146.0 130.5 12"
+      },
+      {
+       "page": 40,
+       "snippet": "FY24 FY23 FY22 Gross premium income 316.8 310.3 272.3 245.0 229.4 Net premium income 150.1 146.0 130.5 123.9 116.3 Operating incomea 62.7 60.2 56.9 54.3 5"
+      },
+      {
+       "page": 40,
+       "snippet": ".2 Net income 124.5 168.0 179.5 139.4 27.7 Administrative Expense/Net Premium Income Ratiob (%) 63% 60% 57% 56% 56% Cumulative Loss Ratioc (%) 2.4% 2.7% 0"
+      },
+      {
+       "page": 40,
+       "snippet": "pital/operating capital 57.5% 52.8% 54.2% 56.8% 61.0% a. Includes Net premium income and Miscellaneous Income relating to staff transferred under the Worl"
+      },
+      {
+       "page": 40,
+       "snippet": "penses. c. Cumulative claims paid as a percentage of cumulative gross premium income. d. Comprises Paid-in capital, Retained earnings/Accumulated Other Co"
+      }
+     ]
+    },
+    "2020": {
+     "pages": [
+      43
+     ],
+     "snippets": [
+      {
+       "page": 43,
+       "snippet": "2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      }
+     ]
+    },
+    "FY20": {
+     "pages": [
+      43
+     ],
+     "snippets": [
+      {
+       "page": 43,
+       "snippet": "istered by the Secretariat 258 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY20"
+      },
+      {
+       "page": 43,
+       "snippet": " the Secretariat 258 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY20"
+      },
+      {
+       "page": 43,
+       "snippet": "tariat 258 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY20"
+      },
+      {
+       "page": 43,
+       "snippet": " 279 306 303 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": "03 332 346 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": " 329 341 347 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": "47 363 15 FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      },
+      {
+       "page": 43,
+       "snippet": "FY2026 15 FY2025 17 FY2024 17 FY2019 14 FY2018 14 FY2017 18 FY2022 19 FY2021 22 FY2023 21 FY2020"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "u-t02",
+   "split": "test",
+   "keyword_matches": {
+    "staff": {
+     "pages": [
+      4,
+      5,
+      20,
+      21,
+      22,
+      24,
+      40,
+      42,
+      44
+     ],
+     "snippets": [
+      {
+       "page": 4,
+       "snippet": "Board actively engaged with government counterparts, World Bank Group staff, development partners, beneficiaries, civil society organizations, an"
+      },
+      {
+       "page": 4,
+       "snippet": "hile strengthening connections with clients and the growing number of staff located in the field. Looking ahead, the Executive Directors and Mana"
+      },
+      {
+       "page": 4,
+       "snippet": " sincere gratitude to the World Bank Group President, Management, and staff whose tireless efforts are instrumental in advancing these goals, ens"
+      },
+      {
+       "page": 5,
+       "snippet": "trated what is possible when our shareholders, clients, partners, and staff work together with urgency and purpose. The World Bank Group is faste"
+      },
+      {
+       "page": 20,
+       "snippet": "ge Bank, providing intellectual leadership and analytical services to staff and the wider global development community. It plays a catalytic role"
+      },
+      {
+       "page": 21,
+       "snippet": "tangible outcomes. Our Community Connections Campaign, which collects staff contributions, raised over $14 million for global charities, includin"
+      },
+      {
+       "page": 22,
+       "snippet": "tter serve clients: Over the next two years, two-thirds of operations staff will be based in the regions they serve. This will enable them to res"
+      },
+      {
+       "page": 22,
+       "snippet": "oup Chief Knowledge Officer Paschal Donohoe. This makes it easier for staff to learn from each other and share our knowledge with clients. We hav"
+      }
+     ]
+    },
+    "employ": {
+     "pages": [
+      5,
+      10,
+      11,
+      16,
+      19,
+      20,
+      21,
+      22,
+      25,
+      31,
+      32,
+      36,
+      41
+     ],
+     "snippets": [
+      {
+       "page": 5,
+       "snippet": "e first developing a business plan to when they’re hiring their 100th employee. Entrepreneurs power the global economy. And it’s our job to help t"
+      },
+      {
+       "page": 10,
+       "snippet": "essential ingredients for economic competitiveness, productivity, and employment creation. The World Bank Group is also offering Ukraine comprehen"
+      },
+      {
+       "page": 10,
+       "snippet": "tees since February 2022 to keep small businesses afloat and maintain employment opportunities. REBUILDING UKRAINE’S ENERGY AND FINANCIAL SECTORS "
+      },
+      {
+       "page": 11,
+       "snippet": "Brazil’s family farms employ nearly 10 million people and play a central role in food production. "
+      },
+      {
+       "page": 16,
+       "snippet": " 500M people, including 250 million women, with social protection and employment support by 2030. 234.4M WATER FOR PLANET Reduce water-related ris"
+      },
+      {
+       "page": 19,
+       "snippet": "ncial institutions expand credit to small businesses, the backbone of employment in developing countries, with transactions in Georgia, Guatemala,"
+      },
+      {
+       "page": 20,
+       "snippet": "y-linked bonds, we link financial innovation directly to economy-wide employment outcomes. This creates a consistent and intentional connection be"
+      },
+      {
+       "page": 21,
+       "snippet": "increase investments in critical minerals to create local value-added employment, and improve access to electricity through Mission 300. At the re"
+      }
+     ]
+    },
+    "MIGA": {
+     "pages": [
+      3,
+      4,
+      7,
+      9,
+      10,
+      11,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      29,
+      30,
+      31,
+      38,
+      39,
+      40,
+      41,
+      42
+     ],
+     "snippets": [
+      {
+       "page": 3,
+       "snippet": "c growth and opportunity. • Multilateral Investment Guarantee Agency (MIGA), which houses the World Bank Group Guarantee Platform, providing gua"
+      },
+      {
+       "page": 4,
+       "snippet": "The World Bank Group Guarantee Platform, hosted at MIGA, continues to play a vital role in bringing private capital to emergi"
+      },
+      {
+       "page": 4,
+       "snippet": "e in bringing private capital to emerging markets. The Board commends MIGA for surpassing $100 billion in cumulative guarantee issuance since it"
+      },
+      {
+       "page": 4,
+       "snippet": " a multiplier of development finance. 1. Includes IBRD, IDA, IFC, and MIGA gross guarantee issuance."
+      },
+      {
+       "page": 7,
+       "snippet": "e, concessional finance through IDA, and private capital through IFC, MIGA, and the World Bank (IBRD/IDA). But development at scale requires an "
+      },
+      {
+       "page": 9,
+       "snippet": "5 million investment grant from the Green Climate Fund. For its part, MIGA received Board approval for guarantees of up to $1.25 billion. Comple"
+      },
+      {
+       "page": 10,
+       "snippet": " equity funds to retain talent and build future growth. For its part, MIGA has extended and increased guarantees to free up capital linked to tw"
+      },
+      {
+       "page": 11,
+       "snippet": "ness. Finally, the World Bank Group expands access to finance through MIGA’s guarantees and insurance, as well as partnerships created by the Wo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "u-t03",
+   "split": "test",
+   "keyword_matches": {
+    "interest rate": {
+     "pages": [
+      20
+     ],
+     "snippets": [
+      {
+       "page": 20,
+       "snippet": "nesia, the Philippines, Thailand, Viet Nam, and Uruguay — to mitigate interest rate, currency, and commodity price volatility. The World Bank Group helps"
+      }
+     ]
+    },
+    "spread": {
+     "pages": [],
+     "snippets": []
+    },
+    "pricing": {
+     "pages": [
+      36
+     ],
+     "snippets": [
+      {
+       "page": 36,
+       "snippet": "ansaction was listed on the London Stock Exchange, giving visibility, pricing transparency, liquidity, and the prospect of secondary trading. The s"
+      }
+     ]
+    },
+    "lending rate": {
+     "pages": [],
+     "snippets": []
+    }
+   }
+  }
+ ]
+}
