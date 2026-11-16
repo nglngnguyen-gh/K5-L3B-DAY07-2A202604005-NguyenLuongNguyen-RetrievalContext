@@ -1,0 +1,104 @@
+{
+ "locked_at": "2026-11-16T04:01:31+00:00",
+ "code_commit_before_lock": "50da184",
+ "benchmark_sha256": {
+  "questions.json": "17af90217de81658fa59bfbb6352a39eb5855875f82fbd36f98d3cffe0750a3b",
+  "abstain.json": "59ddf1d5fa2f805027083ccded25a8f03f33b8417eca846730dadd2d3faf3e8a"
+ },
+ "criteria": "results/selection_criteria.md (committed 50da184 before step-6 runs): 1 Context Evidence Rate, 2 grounded mean, 3 abstention then false abstention, 4 cost then latency; a gap of <=1 question to the best is a tie.",
+ "dev_metrics": {
+  "dense-B-k3": {
+   "context_evidence_rate": "20/21",
+   "grounded_0_1_2": [
+    1,
+    1,
+    19
+   ],
+   "grounded_mean": 1.857,
+   "abstention": "2/3",
+   "false_abstention": "0/21",
+   "cost_usd": 0.02312,
+   "latency_s_median": 2.44
+  },
+  "bm25-B-k3": {
+   "context_evidence_rate": "19/21",
+   "grounded_0_1_2": [
+    0,
+    3,
+    18
+   ],
+   "grounded_mean": 1.857,
+   "abstention": "2/3",
+   "false_abstention": "0/21",
+   "cost_usd": 0.02416,
+   "latency_s_median": 2.23
+  },
+  "hybrid-B-k3": {
+   "context_evidence_rate": "21/21",
+   "grounded_0_1_2": [
+    0,
+    1,
+    20
+   ],
+   "grounded_mean": 1.952,
+   "abstention": "1/3",
+   "false_abstention": "0/21",
+   "cost_usd": 0.02259,
+   "latency_s_median": 2.46
+  },
+  "hybrid-B-k5": {
+   "context_evidence_rate": "21/21",
+   "grounded_0_1_2": [
+    0,
+    1,
+    20
+   ],
+   "grounded_mean": 1.952,
+   "abstention": "2/3",
+   "false_abstention": "0/21",
+   "cost_usd": 0.0352,
+   "latency_s_median": 2.34
+  },
+  "hybrid-B-k3-think": {
+   "context_evidence_rate": "21/21",
+   "grounded_0_1_2": [
+    0,
+    1,
+    20
+   ],
+   "grounded_mean": 1.952,
+   "abstention": "2/3",
+   "false_abstention": "0/21",
+   "cost_usd": 0.03936,
+   "latency_s_median": 3.5
+  },
+  "hybrid-B-k5-think": {
+   "context_evidence_rate": "20/21",
+   "grounded_0_1_2": [
+    0,
+    2,
+    19
+   ],
+   "grounded_mean": 1.905,
+   "abstention": "3/3",
+   "false_abstention": "0/21",
+   "cost_usd": 0.0456,
+   "latency_s_median": 3.5
+  }
+ },
+ "application": [
+  "Step 1 CER: best 21/21; keep >=20: dense-B-k3, hybrid-B-k3, hybrid-B-k5, hybrid-B-k3-think, hybrid-B-k5-think. Drop bm25-B-k3 (19/21).",
+  "Step 2 grounded: best 20 questions graded 2; dense-B-k3 and hybrid-B-k5-think have 19 (1 question) -> tie, all kept.",
+  "Step 3 abstention: best 3/3 (hybrid-B-k5-think); keep >=2/3: dense-B-k3, hybrid-B-k5, hybrid-B-k3-think, hybrid-B-k5-think. Drop hybrid-B-k3 (1/3). False abstention 0/21 for all.",
+  "Step 4 cost: dense-B-k3 $0.0231 < hybrid-B-k5 $0.0352 < hybrid-B-k3-think $0.0394 < hybrid-B-k5-think $0.0456."
+ ],
+ "selected_config": "dense-B-k3",
+ "selected_config_file": "configs/dense-B-k3.json",
+ "conclusion": "On 21+3 dev questions no improvement beats the baseline by more than 1 question on any quality criterion, and the baseline is the cheapest of the remaining candidates, so the pre-declared rule selects the baseline.",
+ "baseline_config": "dense-B-k3",
+ "comparison_arm": {
+  "config": "hybrid-B-k5",
+  "why": "Winner of the same rule when the baseline is excluded (steps 1-3 tie, cheapest of hybrid-B-k5 / k3-think / k5-think). Declared before any test run so test can compare baseline vs an improvement; its test result does NOT change the selection."
+ },
+ "test_protocol": "Run src.run_agent once on split test for configs/dense-B-k3.json and configs/hybrid-B-k5.json, plus src.eval_retrieval --split test for the same methods. No config, prompt, code or label-rule change after viewing test. Manually label every test question (9 answerable + 3 abstain) for both arms, including context grade 0/1/2."
+}
