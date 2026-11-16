@@ -13,7 +13,7 @@
   "answer_grade": 1,
   "reason": "Correct 19->9 months but omits the condition 'some low-risk projects approved in as little as 60 days' (part of the gold statement) -> partial.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d02",
@@ -29,7 +29,7 @@
   "answer_grade": 1,
   "reason": "Says the Group surpassed its $20B annual guarantee goal (p4, correct) but never gives the $25B figure asked for; p6 not retrieved in 3 searches. Both citations (p4 goal, p18 46% growth) support their claims.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d03",
@@ -43,7 +43,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d04",
@@ -57,7 +57,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d05",
@@ -71,7 +71,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d06",
@@ -85,7 +85,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d07",
@@ -99,7 +99,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d08",
@@ -113,7 +113,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d09",
@@ -127,7 +127,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d10",
@@ -141,7 +141,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d11",
@@ -157,7 +157,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d12",
@@ -171,7 +171,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d13",
@@ -187,7 +187,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d14",
@@ -203,7 +203,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d15",
@@ -217,7 +217,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d16",
@@ -231,7 +231,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d17",
@@ -249,7 +249,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d18",
@@ -263,7 +263,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d19",
@@ -277,7 +277,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d20",
@@ -291,7 +291,7 @@
   "answer_grade": 2,
   "reason": "Correct and complete; every citation was read and supports the claim it is attached to.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "d21",
@@ -307,7 +307,7 @@
   "answer_grade": 1,
   "reason": "$112B correct (p6). Second part wrong: claims the report does not give IFC's own mobilization, but p32 states over $73.6B; BM25 never surfaced p32:b002. Citation p32:b001 supports 'IFC contributes through instruments' but not the 'not specified' claim -> false.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "u-d01",
@@ -318,7 +318,7 @@
   "abstention_content_ok": true,
   "reason": "Abstained (abstain=true); says the information is not in the report; no unsupported claim.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "u-d02",
@@ -335,7 +335,7 @@
   "abstention_content_ok": true,
   "reason": "Correct refusal in content (IBRD green bonds not specified; distinguishes IFC's $2B) but abstain=false -> status answered. Both citations support the claims they carry.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  },
  {
   "query_id": "u-d03",
@@ -352,6 +352,6 @@
   "abstention_content_ok": true,
   "reason": "Abstained. Side remark 'information is for fiscal years 2025 and 2026' is inaccurate (tables cover FY22-26) and the two cited chunks (p33 footnotes, p31 climate co-benefits) do not support it -> citations false; no claim about the FY2020 value.",
   "labeler": "claude-draft (Claude Opus 5.5), checked against cited chunk text and gold evidence",
-  "reviewed_by": null
+  "reviewed_by": "student (2026-11-16): reviewed, labels kept"
  }
 ]
