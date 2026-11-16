@@ -1,0 +1,17 @@
+{
+  "name": "hybrid-B-k3",
+  "model": "gemini-2.5-flash",
+  "method": "hybrid",
+  "index": "B",
+  "top_k": 3,
+  "use_filter": true,
+  "max_searches": 4,
+  "max_turns": 10,
+  "context_budget_chars": 6000,
+  "neighbors_tool": false,
+  "temperature": 0.0,
+  "thinking_budget": 0,
+  "price_in_per_m": 0.3,
+  "price_out_per_m": 2.5,
+  "notes": "Method 3: hybrid RRF (dense top-20 + BM25 top-20, k=60) on index B, top-3, user filter. Everything else = baseline."
+}

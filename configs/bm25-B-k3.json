@@ -1,0 +1,17 @@
+{
+  "name": "bm25-B-k3",
+  "model": "gemini-2.5-flash",
+  "method": "bm25",
+  "index": "B",
+  "top_k": 3,
+  "use_filter": true,
+  "max_searches": 4,
+  "max_turns": 10,
+  "context_budget_chars": 6000,
+  "neighbors_tool": false,
+  "temperature": 0.0,
+  "thinking_budget": 0,
+  "price_in_per_m": 0.3,
+  "price_out_per_m": 2.5,
+  "notes": "Method 2: BM25 lexical retrieval (number-aware tokenizer) on index B, top-3, user filter. Everything else = baseline."
+}
